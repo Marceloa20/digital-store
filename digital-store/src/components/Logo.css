@@ -1,0 +1,14 @@
+.titulo-logo {
+    color: var(--color-pink);
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.1em;
+    line-height: 44px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}

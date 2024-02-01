@@ -1,0 +1,11 @@
+.container-lista {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    width: 450px;
+    height: 30px;
+}
+
+.nav-link {
+    padding: 10px;
+}

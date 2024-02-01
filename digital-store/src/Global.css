@@ -1,3 +1,52 @@
 :root {
     --color-pink: #C92071;
 }
+
+.container-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+}
+
+.link:hover {
+    color: var(--color-pink);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.botao {
+    background-color: var(--color-pink);
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.81px;
+    text-align: center;
+    width: 123px;
+    height: 43px;
+    border: none;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #a80755;
+    color: #fff;
+}
+
+.listas {
+    list-style: none;
+}
