@@ -11,12 +11,11 @@
     font-size: 17px;
     line-height: 30px;
     letter-spacing: 0.81px;
+    border-bottom: 2px solid transparent;
 }
 
 .link:hover {
     color: var(--color-pink);
-    text-decoration: underline;
-
-    font-weight: 600;
-    box-sizing: border-box;
+    border-bottom: 2px solid var(--color-pink);
+    -webkit-text-stroke-width: medium;
 }
