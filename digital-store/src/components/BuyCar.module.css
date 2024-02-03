@@ -1,0 +1,25 @@
+.circle {
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    left: -8px;
+  }
+  
+.buycarProducts{
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    top: -10px;
+    left: -21.5px;
+  }
+  
+.buycarIcon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+  }
