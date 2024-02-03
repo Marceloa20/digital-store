@@ -1,0 +1,21 @@
+
+.navLink {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.81px;
+    border-bottom: 2px solid transparent;
+}
+
+.link:hover {
+    color: var(--color-pink);
+    border-bottom: 2px solid var(--color-pink);
+    -webkit-text-stroke-width: medium;
+}

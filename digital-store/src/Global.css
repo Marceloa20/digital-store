@@ -8,23 +8,6 @@
     justify-content: center;
     width: 100%;
     height: 150px;
-    
-}
-
-.link {
-    text-decoration: none;
-    color: #474747;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    letter-spacing: 0.81px;
-}
-
-.link:hover {
-    color: var(--color-pink);
-    text-decoration: underline;
-    font-weight: 600;
 }
 
 .botao {
@@ -45,8 +28,4 @@
 .botao:hover {
     background-color: #a80755;
     color: #fff;
-}
-
-.listas {
-    list-style: none;
 }

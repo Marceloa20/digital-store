@@ -1,14 +1,20 @@
 import React from 'react'
-import './MenuNavegacao.css';
+import Link from './Link';
+import style from './MenuNavegacao.module.css';
 
 const MenuNavegacao = () => {
+
+  const menuItems = [
+    "Home",
+    "Produtos",
+    "Categorias",
+    "Meus Pedidos"
+  ]
+
   return (
     <div>
-        <ul className='listas container-lista'>
-            <li className='nav-link'><a href="#" className='link'>Home</a></li>
-            <li className='nav-link'><a href="#" className='link'>Produtos</a></li>
-            <li className='nav-link'><a href="#" className='link'>Categorias</a></li>
-            <li className='nav-link'><a href="#" className='link'>Meus Pedidos</a></li>
+        <ul className={style.containerLista}>
+          {menuItems.map(item => (<Link name={item} />))}
         </ul>
     </div>
   )
