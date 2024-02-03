@@ -5,6 +5,7 @@ import Cadastro from './Cadastro.jsx';
 import BotaoRegistro from './BotaoRegistro.jsx';
 import CarrinhoCompras from './CarrinhoCompras.jsx';
 import MenuNavegacao from './MenuNavegacao.jsx';
+import BuyCar from './BuyCar.jsx';
 
 const Cabecalho = () => {
   return (
@@ -14,7 +15,7 @@ const Cabecalho = () => {
         <CaixaPesquisa />
         <Cadastro />
         <BotaoRegistro />
-        <CarrinhoCompras />
+        <BuyCar />
     </div>
     <div>
     <div>
